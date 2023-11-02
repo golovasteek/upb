@@ -37,6 +37,7 @@ _DEFAULT_CPPOPTS.extend([
     "-Werror",
     "-Wno-long-long",
     "-Wno-deprecated-builtins",
+    "-Wno-unused-parameter",
 ])
 _DEFAULT_COPTS.extend([
     "-std=c99",
