@@ -36,6 +36,7 @@ _DEFAULT_CPPOPTS.extend([
     # "-Wshorten-64-to-32",  # not in GCC (and my Kokoro images doesn't have Clang)
     "-Werror",
     "-Wno-long-long",
+    "-Wno-deprecated-builtins",
 ])
 _DEFAULT_COPTS.extend([
     "-std=c99",
